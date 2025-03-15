@@ -5,7 +5,7 @@
 int main (int argc, char *argv[]) {
     double a, b, c;
     double x1, x2, d;
-    char choice;
+    char vibor;
 
     while (1) {
         printf("Vvedite a:\n");
