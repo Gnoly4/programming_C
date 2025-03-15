@@ -29,8 +29,8 @@ int main() {
         sum2 += m[i][2 - i];
     }
 
-    printf("Sum diagonal main: %.2lf\n", sum1);
-    printf("Sum diagonal ne main: %.2lf\n", sum2);
+    printf("Suma diagonal main: %.2lf\n", sum1);
+    printf("Suma diagonal ne main: %.2lf\n", sum2);
 
     printf("vedi matricu 2x2:\n");
     for (i = 0; i < 2; i++) {
