@@ -2,18 +2,16 @@
 
 int main() {
     char str[80];
-    int i = 0;
+    printf("Vvedi strok: ");
+    fgets(str, sizeof(str), stdin); 
 
-    printf("vedi strochku: ");
-    gets(str);
-
-    while (str[i] != '\0') {
-        if (str[i] == 'a' || str[i] == 'b') {
-            str[i] = str[i] - 32;
-        }
-        i++;
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] == 'a') {
+            str[i] = 'A';
+        } else if (str[i] == 'b') 
+            str[i] = 'B';
     }
 
-    printf("result: %s\n", str);
+    printf("Result: %s\n", str);
     return 0;
 }
