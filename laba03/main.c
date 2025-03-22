@@ -2,7 +2,7 @@
 
 int main() {
     char str[80];
-    printf("Vvedi strok: ");
+    printf("Vvedi strochky: ");
     fgets(str, sizeof(str), stdin); 
 
     for (int i = 0; str[i] != '\0'; i++) {
